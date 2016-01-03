@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Johnny Goodman's Blog
+title: Data Dumping Links From My Previous "Blog"
 ---
 
 After running my own blog software on heroku, I've ported over to a github hosted [Jekyll](http://jekyllrb.com) instance. Early on it is nice. 
