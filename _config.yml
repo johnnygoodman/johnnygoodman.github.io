@@ -28,3 +28,7 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
+
+# Code Snippets
+markdown:            redcarpet
+extensions:          [fenced_code_blocks]
