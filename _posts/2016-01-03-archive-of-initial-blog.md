@@ -139,7 +139,7 @@ end
 
 Days Ago ActiveSupport
 
-````
+```ruby
 require 'active_support/all'
 
 require 'date'
@@ -149,7 +149,7 @@ today = Date.today
 ninetydaysfrom_today = today + 90.days
 
 puts "today: #{today} 90 days from today: #{ninetydaysfrom_today}"
-````
+```
 
 
 ----
