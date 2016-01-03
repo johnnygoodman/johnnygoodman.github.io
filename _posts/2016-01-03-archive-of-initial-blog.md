@@ -11,8 +11,6 @@ That said, here's a dump of all the stuff I saved from the old blog, for posteri
 
 -----
 
-* Sublime Text
-
 * [Sublime Productivity Hacks](https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
 * [Scott's Sublime Text Setup](https://scratchpad.cpap.com/p/ScottsSublimeTextSetup)
 * [Ruby google_drive oauth](http://gimite.net/doc/google-drive-ruby/GoogleDrive.html#method-c-loginwithoauth)
