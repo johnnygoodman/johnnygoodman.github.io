@@ -3,17 +3,16 @@ layout: post
 title: Data Dumping Links From My Previous "Blog"
 ---
 
-After running my own blog software on heroku, I've ported over to a github hosted [Jekyll](http://jekyllrb.com) instance. Early on it is nice. 
+After running my own blog software on heroku, I've ported over to a github hosted [Jekyll](http://jekyllrb.com) instance. Early on it is nice.
 
-While initially intended to be a blog, it became a place to store how to reminders and links. Now that [Pocket](https://getpocket.com) serves that purpose, perhaps this'll be more of a proper blog. 
+While initially intended to be a blog, it became a place to store how to reminders and links. Now that [Pocket](https://getpocket.com) serves that purpose, perhaps this'll be more of a proper blog.
 
 That said, here's a dump of all the stuff I saved from the old blog, for posterity's sake and to avoid some kind of heroku db export in the future
 
 -----
 
 * Sublime Text
-  
-* cmd + ctrl + g - Select All Instances of string and edit replace in sublime text
+
 * [Sublime Productivity Hacks](https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
 * [Scott's Sublime Text Setup](https://scratchpad.cpap.com/p/ScottsSublimeTextSetup)
 * [Ruby google_drive oauth](http://gimite.net/doc/google-drive-ruby/GoogleDrive.html#method-c-loginwithoauth)
@@ -45,34 +44,37 @@ That said, here's a dump of all the stuff I saved from the old blog, for posteri
 * [Parse watir with nokogiri](page_html = Nokogiri::HTML.parse(browser.html)
 * [Light Weight Git Deploy With Git Push Web](http://toroid.org/ams/git-website-howto)
 
+----
+
+cmd + ctrl + g - Select All Instances of string and edit replace in sublime text
 
 ----
 
 Startup Idea: MySellNumber.com
 
-8:25:48 AM Johnny Goodman: I had a start up idea last night. Know how there are security certs and BBB certs and stuff? Make an icon "IWouldSellForX"
-8:26:23 AM Johnny Goodman: mousing over it would show the ballpark sale price of the business along with key metrics based on what business type it was. Clicking through would give you a form where buyers could contact the business owner. 
-8:26:41 AM Johnny Goodman: on Iwouldsellforx.com you could browse all businesses and what their owners would need to part with them
-8:26:46 AM Ben Dauphinee: I think there's something like that already, for web properties
-8:26:47 AM Johnny Goodman: a more broad flippa.com
-8:26:50 AM Ben Dauphinee: Or similar
-8:26:54 AM Johnny Goodman: flippa is "i'm selling now"
-8:27:01 AM Johnny Goodman: instead of "I'm not selling, but I would move for this price"
-8:27:08 AM Johnny Goodman: thisismynumber.com is a better descriptor 
-8:27:12 AM Ben Dauphinee: Interesting idea
-8:27:27 AM Johnny Goodman: I like it because it is a true weekend project business
-8:27:34 AM Johnny Goodman: I could code it with a few months of weekends
-8:27:38 AM Johnny Goodman: where as landingpage.com, I could not
-8:27:49 AM Johnny Goodman: I am itchy to build something and push something to get in the game and learn
-8:28:01 AM Ben Dauphinee: You have your homepage
-8:28:25 AM Ben Dauphinee: That could be prettier
-8:28:27 AM Johnny Goodman: no, something real
-8:28:36 AM Ben Dauphinee: You don't think it's real?
-8:28:42 AM Ben Dauphinee: It's a good way to cut you teeth
-8:28:45 AM Johnny Goodman: "I'm offering this to you user, would you like to buy it?"
-8:28:52 AM Ben Dauphinee: Ah
-8:29:04 AM Johnny Goodman: or even "would you take your time to use it?"
-8:29:08 AM Ben Dauphinee: Forget buy. I'm offering this free thing, would you like to use it at all
+    8:25:48 AM Johnny Goodman: I had a start up idea last night. Know how there are security certs and BBB certs and stuff? Make an icon "IWouldSellForX"
+    8:26:23 AM Johnny Goodman: mousing over it would show the ballpark sale price of the business along with key metrics based on what business type it was. Clicking through would give you a form where buyers could contact the business owner.
+    8:26:41 AM Johnny Goodman: on Iwouldsellforx.com you could browse all businesses and what their owners would need to part with them
+    8:26:46 AM Ben Dauphinee: I think there's something like that already, for web properties
+    8:26:47 AM Johnny Goodman: a more broad flippa.com
+    8:26:50 AM Ben Dauphinee: Or similar
+    8:26:54 AM Johnny Goodman: flippa is "i'm selling now"
+    8:27:01 AM Johnny Goodman: instead of "I'm not selling, but I would move for this price"
+    8:27:08 AM Johnny Goodman: thisismynumber.com is a better descriptor
+    8:27:12 AM Ben Dauphinee: Interesting idea
+    8:27:27 AM Johnny Goodman: I like it because it is a true weekend project business
+    8:27:34 AM Johnny Goodman: I could code it with a few months of weekends
+    8:27:38 AM Johnny Goodman: where as landingpage.com, I could not
+    8:27:49 AM Johnny Goodman: I am itchy to build something and push something to get in the game and learn
+    8:28:01 AM Ben Dauphinee: You have your homepage
+    8:28:25 AM Ben Dauphinee: That could be prettier
+    8:28:27 AM Johnny Goodman: no, something real
+    8:28:36 AM Ben Dauphinee: You don't think it's real?
+    8:28:42 AM Ben Dauphinee: It's a good way to cut you teeth
+    8:28:45 AM Johnny Goodman: "I'm offering this to you user, would you like to buy it?"
+    8:28:52 AM Ben Dauphinee: Ah
+    8:29:04 AM Johnny Goodman: or even "would you take your time to use it?"
+    8:29:08 AM Ben Dauphinee: Forget buy. I'm offering this free thing, would you like to use it at all
 
 ----
 
@@ -114,26 +116,25 @@ I'm not after a shirt I love when I use your service, I'm after easy.
 
 I did not hear back...
 
-
-
-
-
 ----
 
 Git Reset
 
 If you have committed junk but not pushed,
 
+```
 git reset --soft HEAD~1
-
+```
 
 ----
 
 ActiveResource Custom Headers
 
+```ruby
 class Post < ActiveResource::Base
   headers['X-MyHeader'] = 'ryan'
 end
+```
 
 ----
 
@@ -158,15 +159,17 @@ Make Requests On Rails Controllers via Console
 
 http://stackoverflow.com/questions/151030/how-do-i-call-controller-view-methods-from-the-console-in-rails
 
+```
 app.get '/posts/1'
 response = app.response
+```
 
 you now have a rails response object much like the integration tests
 
+```ruby
 response.body            # get you the HTML
 response.cookies         # hash of the cookies
-
-
+```
 
 ----
 
@@ -174,26 +177,23 @@ Heroku Set Time Zone
 
 macbook:scrumcpap johnnygoodman$ heroku config:set TZ=America/Chicago Setting config vars and restarting scrumcpap... done, v43 TZ: America/Chicago
 
-
-
-
 ----
 
 Ham Radio License Advice
 
 The licenses are issued in three levels...Technician, General and Extra. The Technician is the first license...you can't get a General license until you have a Technician license. You could sit for the Technician and then the General license on the same night if you wanted (then you'd only pay one test fee. Then again, you could get a Technician license and not go any further. That would just limit the number of bands you could transmit on. However, those bands would include most all local repeaters...so, you'd have alot of transmission options from the get-go.
 
-ARRL.org http://www.arrl.org/getting-licensed
+[ARRL.org](http://www.arrl.org/getting-licensed)
 
 The Technician test is 35 questions, multiple choice and I believe the cost was $15. Test is offered at many locations locally, but I took it at the Stafford HCC campus. The Stafford area ham radio group runs that test. I believe they offer the test the 2nd Tuesday of each month at 6:15pm.
 
 Training guides: I purchased a Kindle e-book version of a training course. It was beneficial, but I realized later all of this data is freely available on the internet.
 
-Study Guides http://www.kb6nu.com/tech-manual/
+[Study Guides](http://www.kb6nu.com/tech-manual/)
 
-Questions and Answers http://hamelmer.com/Assets/Docs/Tech/2010%20Element%202%20Compact%20QandA.pdf
+[Questions and Answers](http://hamelmer.com/Assets/Docs/Tech/2010%20Element%202%20Compact%20QandA.pdf)
 
-Another useful link from University of Michigan http://web.eecs.umich.edu/~becher/test/tech.html#guide
+[Another useful link from University of Michigan](http://web.eecs.umich.edu/~becher/test/tech.html#guide)
 
 I read the book and studied the questions and answers. The questions on the link above are the exact questions you will see on the test. Morse code is no longer a requirement for a ham radio license.
 
@@ -202,9 +202,9 @@ I read the book and studied the questions and answers. The questions on the link
 
 Regexp for Dollar Amounts
 
-````
+```
 ([\d{1,2},]*\d{1,3}.\d{2})
-````
+```
 
 ----
 
@@ -217,23 +217,24 @@ except for this one case, whenever you want a case, you should put an array into
 
 Parameters
 
+```
 "name"=>"whatever", :emails => ['some@email.com', 'another@email.com'], :friends => [
 
 {
-    :name => "johnny", 
-    :family => { :name => "lname?", :address => "1254 st" }, 
+    :name => "johnny",
+    :family => { :name => "lname?", :address => "1254 st" },
     :hobbies => ["hobby 1", "hobby 2"]
 }
 ]
 
 params.permit(:name, {:emails => []}, :friends => [ :name, { :family => [ :name, :address ], :hobbies => [] }])
-
+```
 
 ----
 
 datetime_picker_input.rb
 
-````
+```
 class DatetimePickerInput < SimpleForm::Inputs::StringInput
   def input
     value = object.send(attribute_name) if object.respond_to? attribute_name
@@ -255,7 +256,7 @@ class DatetimePickerInput < SimpleForm::Inputs::StringInput
     end
   end
 end
-````
+```
 
 
 ----
@@ -272,68 +273,55 @@ Enter your full Gmail address, password and type the characters you see in the p
 
 Open the Mail app and your Gmail access should be restored.
 
-
-
-
-
-
-
 ----
 
 GP Shell Commands For Git
 
-2:28:22 PM GP (Gaganpreet Arora): git rm $(gst | grep deleted: | awk '{print $2}')
+    2:28:22 PM GP (Gaganpreet Arora): git rm $(gst | grep deleted: | awk '{print $2}')
 
-2:36:48 PM Johnny Goodman: git rm, command
+    2:36:48 PM Johnny Goodman: git rm, command
 
-2:36:54 PM Johnny Goodman: $() inline shell script
+    2:36:54 PM Johnny Goodman: $() inline shell script
 
-2:37:02 PM Johnny Goodman: grep each line containing deleted
+    2:37:02 PM Johnny Goodman: grep each line containing deleted
 
-2:37:08 PM Johnny Goodman: for each of those lines
+    2:37:08 PM Johnny Goodman: for each of those lines
 
-2:37:32 PM Johnny Goodman: awk…still no idea, guessing $1 = deleted and $2 = the stripe, split on space though that isn't defined
+    2:37:32 PM Johnny Goodman: awk…still no idea, guessing $1 = deleted and $2 = the stripe, split on space though that isn't defined
 
-2:50:10 PM GP (Gaganpreet Arora): yep, by default awk splits on whitespace
+    2:50:10 PM GP (Gaganpreet Arora): yep, by default awk splits on whitespace
 
-2:50:21 PM Johnny Goodman: ah
+    2:50:21 PM Johnny Goodman: ah
 
-2:50:23 PM Johnny Goodman: well then
+    2:50:23 PM Johnny Goodman: well then
 
-2:50:32 PM Johnny Goodman: delete: /some/path hihih
+    2:50:32 PM Johnny Goodman: delete: /some/path hihih
 
-2:50:36 PM Johnny Goodman: $3 == hihih
+    2:50:36 PM Johnny Goodman: $3 == hihih
 
-2:50:37 PM Johnny Goodman: right?
+    2:50:37 PM Johnny Goodman: right?
 
-2:50:39 PM GP (Gaganpreet Arora): yep
+    2:50:39 PM GP (Gaganpreet Arora): yep
 
-2:50:46 PM Johnny Goodman: awk
+    2:50:46 PM Johnny Goodman: awk
 
-2:50:51 PM Johnny Goodman: its not ack :)
+    2:50:51 PM Johnny Goodman: its not ack :)
 
-2:50:55 PM Johnny Goodman: end of knowledge
+    2:50:55 PM Johnny Goodman: end of knowledge
 
-2:51:50 PM GP (Gaganpreet Arora):
+    2:51:50 PM GP (Gaganpreet Arora):
 
-http://www.vectorsite.net/tsawk_1.html
+    http://www.vectorsite.net/tsawk_1.html
 
-2:51:55 PM GP (Gaganpreet Arora): if you are interested in learning more
+    2:51:55 PM GP (Gaganpreet Arora): if you are interested in learning more
 
-2:52:58 PM Johnny Goodman: thx
+    2:52:58 PM Johnny Goodman: thx
 
 ----
 
 Sweet Dystopian Pic
 
 http://www.abload.de/img/worth_enough_2500eornd.jpg
-
-
-
-
-
-
-
 
 
 ----
