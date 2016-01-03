@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               JohnnyGoodman.com
+tagline:             Blogging About Life, Code and CPAP Things.
+url:                 http://johnnygoodman.com
 paginate:            1
 baseurl:             ""
 
@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Johnny Goodman
+  url:               http://www.cpap.com/about/johnnygoodman
+  email:             johnny.goodman@gmail.com
 
 # Custom vars
 version:             2.0.0
