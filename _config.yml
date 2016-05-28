@@ -30,5 +30,5 @@ github:
   repo:              https://github.com/poole/poole
 
 # Code Snippets
-markdown:            redcarpet
+#markdown:            redcarpet
 extensions:          [fenced_code_blocks]
