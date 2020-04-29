@@ -34,19 +34,17 @@ degree they can not generate direct customer access, they must compete on price,
 
 There still exist entire sectors of the US economy which are not yet unified by a Platform. 
 
-The 2010s were defined by the [FAANGs](https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp)
+In the 1990s and 2000s companies like Ebay and Google dominated. Ebay has a strong and long term business, but is now being taken apart niche by niche by the likes of Etsy, Autotrader and [GOAT](https://www.goat.com/). Google has done better parlaying search into Andriod and an Office Suite, but Amazon is taking ecommerce and DuckDuckGo has taken their privacy concerned niche. Even Amazon's [Prime Wardrobe](https://www.amazon.com/learn-more-prime-wardrobe/b?ie=UTF8&node=16122413011) launch to counter StitchFix has falled flat. There is staying power in a laser focused platform niche. 
+
+The 2010s were defined by the [FAANGs](https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp). The 2020s will see many new platforms: either those who consolidate existing sectors or those who take a large niched chunk out of an existing platform. 
 
 
 
 
-1. Any market which would benefit from a platform will get one (and only one due to the nature of platforms)
-2. Niche platforms will take chunks out of existing large platforms
 
-Ebay is still well profitable and growing but so are Etsy, Autotrader and recently shoe exchange platforms. I search on DuckDuckGo instead of Google where ever possible. Market networks haven't put a hurt on Amazon yet but it could happen. 
+> When these two forces meet, what happens? There can be only one platform per market area but a bite of each can be eaten by a company smaller, faster and more focused. 
 
-When these two forces meet, what happens? There can be only one platform per market area but a bite of each can be eaten by a company smaller, faster and more focused. 
-
-It seems like the game for those of us on the outside is to find a market, platform it and bonus points for taking a chunk of an existing player with your superior laser focus on a single core transaction. 
+> It seems like the game for those of us on the outside is to find a market, platform it and bonus points for taking a chunk of an existing player with your superior laser focus on a single core transaction. 
 
 ## Where Are The CPAP and Sleep Apnea Platform Opportunities?
 
