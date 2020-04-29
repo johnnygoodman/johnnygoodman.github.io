@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Dumping Links From My Previous "Blog"
+title: Data Dumping Links From My Previous "Blog" (2016-01-03
 ---
 
 After running my own blog software on heroku, I've ported over to a github hosted [Jekyll](http://jekyllrb.com) instance. Early on it is nice.

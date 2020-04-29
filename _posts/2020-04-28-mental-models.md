@@ -9,7 +9,7 @@ People define mental models a bit differently but blending [Poor Charlie's Alman
 
 Here are a few of my favorites:
 
-* [Invert, always invert](https://seekingalpha.com/article/4040474-invert-always-invert)
+* [Invert, Always Invert](https://seekingalpha.com/article/4040474-invert-always-invert)
 * [The Map Is Not The Territory](https://fs.blog/2015/11/map-and-territory/)
 
 [@patrick_oshag](https://twitter.com/patrick_oshag), whose [Invest Like The Best Podcast](http://investorfieldguide.com/podcast/) is an excellent source of new perspectives and mental models, was asked what quality signals he looks in someone he's meeting for the first time and said:
