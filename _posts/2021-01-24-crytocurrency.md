@@ -1,3 +1,8 @@
+---
+layout: post
+title: Thoughts On Cryptocurrency
+---
+
 "Just curious, Do you invest in crypto currency or believe it’s gold 2.0" -PQ
 
 ## Bull Case
